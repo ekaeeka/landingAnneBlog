@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-body{
-    font-family: "Open Sans";
+body h1{
+    font-family: 'Philosopher';
     padding: 0;
     margin: 0;
 }
@@ -151,6 +151,8 @@ header{
     box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
 }
 
+
+
 .article-4, .article-5, .article-6, .article-7{
     color: white;
     margin-top: 360px;
@@ -198,6 +200,193 @@ header{
 .button:focus{
     outline: none;
 }
+
+.buttonTwo{
+    display: block;
+    background: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+.buttonTwo:focus{
+    outline: none;
+}
+
+.block-moreTwo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.content-block-three{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me h1{
+    margin-top: 5%;
+    margin-left: 50%;
+}
+
+.text-about-me{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 19px;
+}
+
+.photo-about-me{
+    margin-top: 40px;
+}
+
+.photo-about{
+    height: 85%;
+    border-radius: 10px;
+}
+
+.text-in-blog{
+    font-style: Italic;
+    font-size: 25px;
+    border-left: 3px grey solid;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.portfolio{
+    margin-left: 50%;
+}
+
+.portfolio-one{
+    height: 525px;
+    width: 387px;
+    background: url("../img/image 7.png") no-repeat center/cover;
+    border-radius: 10px;
+}
+
+.portfolio-one:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.portfolio-two{
+    height: 525px;
+    width: 387px;
+    background: url("../img/image 8.png") no-repeat center/cover;
+    border-radius: 10px;
+}
+
+.portfolio-two:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.portfolio-three{
+    height: 525px;
+    width: 387px;
+    background: url("../img/image 9.png") no-repeat center/cover;
+    border-radius: 10px;
+}
+
+.portfolio-three:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.text-content h1{
+    color: white;
+    font-family: 'Spectral SC';
+    text-align: center;
+    padding-top: 50%;
+}
+
+.text-content{
+    color:white;
+    text-align: center;
+}
+
+.text-content-two h1{
+    color: black;
+    font-family: 'Spectral SC';
+    text-align: center;
+    padding-top: 50%;
+}
+
+.text-content-two{
+    color:black;
+    text-align: center;
+}
+
+.content-block-four{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+}
+
+.content-block-four-more{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#moduleBlockMoreTwo{
+    display: none;
+}
+
+.send-me h1{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.container-form-img{
+    background: url("../img/oblachko.png")no-repeat center/cover;
+    width:896px;
+    height: 537px;
+    margin-left: 12%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.form-name input{
+    width:350px;
+    height: 40px;
+    padding-left:5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.form-email input{
+    width:350px;
+    height: 40px;
+    padding-left:5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:1960px) {

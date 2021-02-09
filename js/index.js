@@ -11,10 +11,10 @@
 //         dots.style.display="none"
 //         btn.innerHTML = "Скрыть"
 //         more.style.display="inline"
-//     }
+//     }-
 // }
 function readMore() {
-    let btn = document.getElementById("btn")
+    let btn = document.getElementById("btn");
     let moduleBlockMore = document.getElementById('moduleBlockMore');
     if (getComputedStyle(moduleBlockMore).display == 'none') {
         moduleBlockMore.style.display = 'block';
@@ -37,6 +37,19 @@ function selectTheme() {
         buttonSelect.style.borderBottomLeftRadius = '10px';
         buttonSelect.style.borderBottomRightRadius = '10px';
         filterSelect.style.display = 'none';
+    }
+}
+
+
+function readMoreTwo() {
+    let btnTwo = document.getElementById("btnTwo");
+    let moduleBlockMoreTwo = document.getElementById('moduleBlockMoreTwo');
+    if (getComputedStyle(moduleBlockMoreTwo).display == 'none') {
+        moduleBlockMoreTwo.style.display = 'block';
+        btnTwo.innerHTML = 'Скрыть';
+    } else {
+        moduleBlockMoreTwo.style.display = 'none';
+        btnTwo.innerHTML = 'Показать ещё';
     }
 }
 
