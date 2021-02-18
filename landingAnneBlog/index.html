@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Philosopher:ital@1&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="fonts/OpenSans-Regular.ttf">
+    <link rel="stylesheet" href="fonts/Philosopher-Regular.ttf">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Anne Sweet's Blog </title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="head">
+            <div class="logo">
+                <img src="img/OBJECTS.png" alt="">
+            </div>
+            <div class="menu">
+                <a href="#">Статьи</a>
+                <a href="#">Обо мне</a>
+                <a href="#">Портфолио</a>
+                <a href="#">Написать мне</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script src="js/index.js"></script>
+<section id="block-2">
+    <div class="container">
+        <div class="head-2">
+            <div class="heading">
+                <h1>Все статьи</h1>
+            </div>
+            <div class="filter">
+                <h2 id="buttonSelect" onclick="selectTheme()" class="filter-a">Выбрать тему</h2>
+                <div id="filterSelect">
+                    <div class="filter-flex-row">
+                        <a href="#">Город</a>
+                        <a href="#">Книги</a>
+                        <a href="#">Путешествия</a>
+                        <a href="#">Рецепты</a>
+                        <a href="#">Фотографии</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-block">
+            <div class="container-image">
+                <div class="article-1">
+                    <img src="img/image%201.png" alt="" class="image">
+                    <div class="name-article"><h3>Путешествие в Берлин в августе </h3></div>
+                    <br>
+                    <div class="text-article"><p>Летний месяц я провела в столице Германии <br>вместе с друзьями. И вот
+                        как это было!</p></div>
+                    <br>
+                    <div class="teg">
+                        <div class="name-teg">
+                            <p>Теги: путешествия</p>
+                        </div>
+                        <div class="date">
+                            <p>29.09.2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-image">
+                <div class="article-2">
+                    <img src="img/image%202.png" alt="" class="image">
+                    <div class="name-article"><h3>Где выпить колдбрю в Москве</h3></div>
+                    <br>
+                    <div class="text-article"><p>Собрала для вас список любимых кофеен,<br>
+                        где подают лучший летний напиток.</p></div>
+                    <br>
+                    <div class="teg">
+                        <div class="name-teg">
+                            <p>Теги: город</p>
+                        </div>
+                        <div class="date">
+                            <p>24.07.2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-image">
+                <div class="article-3">
+                    <img src="img/image%203.png" alt="" class="image">
+                    <div class="name-article"><h3>Книжные рекомендации</h3></div>
+                    <br>
+                    <div class="text-article"><p>Рассказываю о прочитанных за последнее <br>время книгах: фавориты и
+                        провалы.</p></div>
+                    <br>
+                    <div class="teg">
+                        <div class="name-teg">
+                            <p>Теги: книги</p>
+                        </div>
+                        <div class="date">
+                            <p>15.07.2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-block-two">
+            <div class="container-image-two">
+                <div class="article-4">
+                    <div class="name-article"><h3>Снимки на плёнку</h3></div>
+                    <br>
+                    <p>Поделилась с вами весенними фотографиями,<br>
+                        и секретами удачных снимков.</p>
+                </div>
+                <br>
+                <div class="teg-block-two">
+                    <div class="teg-two">
+                        <p>Теги: фотографии</p>
+                    </div>
+                    <div class="date">
+                        <p>29.06.20</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-image-three">
+                <div class="article-5">
+                    <div class="name-article"><h3>Снимки на плёнку</h3></div>
+                    <br>
+                    <p>Поделилась с вами весенними фотографиями,<br>
+                        и секретами удачных снимков.</p>
+                </div>
+                <br>
+                <div class="teg-block-two">
+                    <div class="teg-two">
+                        <p>Теги: фотографии</p>
+                    </div>
+                    <div class="date">
+                        <p>29.06.20</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="dots"></div>
+        <div id="more">
+            <div id="moduleBlockMore">
+                <div class="block-more">
+                    <div class="container-image-four">
+                        <div class="article-6">
+                            <div class="name-article"><h3>Снимки на плёнку</h3></div>
+                            <br>
+                            <p>Поделилась с вами весенними фотографиями,<br>
+                                и секретами удачных снимков.</p>
+                        </div>
+                        <br>
+                        <div class="teg-block-two">
+                            <div class="teg-two">
+                                <p>Теги: фотографии</p>
+                            </div>
+                            <div class="date">
+                                <p>29.06.20</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-image-five">
+                        <div class="article-7">
+                            <div class="name-article"><h3>Снимки на плёнку</h3></div>
+                            <br>
+                            <p>Поделилась с вами весенними фотографиями,<br>
+                                и секретами удачных снимков.</p>
+                        </div>
+                        <br>
+                        <div class="teg-block-two">
+                            <div class="teg-two">
+                                <p>Теги: фотографии</p>
+                            </div>
+                            <div class="date">
+                                <p>29.06.20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="btn" onclick="readMore()" class="button">Показать ещё</button>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="about-me">
+            <h1>Обо мне</h1>
+        </div>
+        <div class="content-block-three">
+            <div class="photo-about-me">
+                <img src="img/image%206.png" alt="" class="photo-about">
+            </div>
+            <div class="text-about-me">
+                <p>
+                    Всем привет! Меня зовут Аня, и это мой личный блог.
+                    Здесь ты найдёшь рассказы о моих путешествиях, снимки
+                    на плёнку, рецепты, обзоры на книги. В общем, тексты о том,
+                    что мне инетресно.
+                    <br>
+                    <br>
+                    Я работаю копирайтером, поэтому мой блоге — это ещё и моё
+                    портфолио. Ниже размещены несколько моих лучших
+                    рабочих текстов. Буду рада новым сотрудничествам!
+                    <br>
+                    <br>
+                    Если вы хотите написать мне — это можно сделать в соцсетях
+                    или через форму. Всегда приятно услышать обратную связь
+                    от читателей и познакомиться поближе.
+                    <br>
+                    <br>
+                    Приятного чтения!
+                    <br>
+                    <br>
+                </p>
+                <br>
+                <br>
+                <div class="text-in-blog">
+                    <p>Я верю, что каждый раз пробуя новое,<br>
+                        выходящее за зону моего комфорта,<br>
+                        я действительно узнаю настояющую<br>
+                        себя.<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="portfolio">
+            <h1>Портфолио</h1>
+        </div>
+        <div class="content-block-four">
+            <div class="portfolio-one">
+                <div class="portfolio-container">
+                    <div class="text-content">
+                        <h1>Блог HTML Academy <br><br> «Как учиться продуктивно»</h1>
+                        <br>
+                        <p>
+                            Про основные методы обучения,<br>
+                            которые помогут быстро и надолго<br>
+                            запомнить информацию.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-two">
+                <div class="portfolio-container">
+                    <div class="text-content-two">
+                        <h1>Журнал «Т — Л» <br><br> «Советы по эффективной
+                            удалённой работе»</h1>
+                        <br>
+                        <p>
+                            Поделилась лайфхаками, которые помогают<br>
+                            мне работать продуктивно из дома.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-three">
+                <div class="portfolio-container">
+                    <div class="text-content-two">
+                        <h1>Журнал «LNK» <br><br> «Зачем поцели нужны человеку?<br>
+                            И какие они бывают»</h1>
+                        <br>
+                        <p>
+                            Поцелуи — повсеместная ежедневная<br>
+                            практика. Но зачем люди целуются?<br>
+                            Какие смысли вкладывают в этот ритуал?<br>
+                            И где корни этой практики?<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="more-two">
+            <div id="moduleBlockMoreTwo">
+                <div class="content-block-four">
+                    <div class="portfolio-one">
+                        <div class="portfolio-container">
+                            <div class="text-content">
+                                <h1>Блог HTML Academy <br><br> «Как учиться продуктивно»</h1>
+                                <br>
+                                <p>
+                                    Про основные методы обучения,<br>
+                                    которые помогут быстро и надолго<br>
+                                    запомнить информацию.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-two">
+                        <div class="portfolio-container">
+                            <div class="text-content-two">
+                                <h1>Блог HTML Academy <br><br> «Как учиться продуктивно»</h1>
+                                <br>
+                                <p>
+                                    Про основные методы обучения,<br>
+                                    которые помогут быстро и надолго<br>
+                                    запомнить информацию.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-three">
+                        <div class="portfolio-container">
+                            <div class="text-content-two">
+                                <h1>Блог HTML Academy <br><br> «Как учиться продуктивно»</h1>
+                                <br>
+                                <p>
+                                    Про основные методы обучения,<br>
+                                    которые помогут быстро и надолго<br>
+                                    запомнить информацию.<br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="btnTwo" onclick="readMoreTwo()" class="buttonTwo">Показать ещё</button>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="send-me">
+            <h1>Написать мне</h1>
+            <div class="container-form-img">
+                <div class="container-form">
+                    <div class="form-name">
+                        <h3>Введите имя</h3><br>
+                        <input type="text" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-email">
+                        <h3>Введите email</h3><br>
+                        <input type="text" placeholder="Ваш email">
+                    </div>
+                </div>
+                <div class="container-form-message">
+                    <h3>Напишите сообщение</h3>
+                    <input type="text" placeholder="Введите свое сообщение...">
+                </div>
+                <div class="button-send">
+                    <a href="">ОТПРАВИТЬ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer-bg">
+    <div class="container">
+        <div class="footer">
+            <div class="social-network">
+                <img src="img/vk-removebg-preview.png" alt="" class="img-social">
+                <img src="img/telegram-removebg-preview.png" alt="" class="img-social">
+                <img src="img/instagram-removebg-preview.png" alt="" class="img-social">
+                <img src="img/twitter-removebg-preview.png" alt="" class="img-social">
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
